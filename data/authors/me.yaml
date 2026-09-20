@@ -2,115 +2,159 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Abdoul Aziz Ndoye
+  given: Abdoul Aziz
+  family: Ndoye
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
 postnominals:
   - PhD
-  - MIEEE
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "📊"
+role: Associate Professor of Economics
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Abdoul Aziz Ndoye is an Associate Professor (Maître de Conférences) in Economics
+  at the University of Orléans, member of the Laboratoire d'Économie d'Orléans (LEO).
+  He holds a PhD in Econometrics from the Aix-Marseille School of Economics (AMSE, 2013).
+  His research focuses on econometrics of inequality, quantile and expectile
+  regressions, Bayesian econometrics, and statistical machine learning, with
+  applications to income distribution and labor markets. His work has been
+  presented at several World Congresses of the Econometric Society, most
+  recently in Seoul, South Korea (2025).
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of Orléans
+    url: https://www.univ-orleans.fr/
+  - name: Laboratoire d'Économie d'Orléans (LEO)
+    url: https://www.leo-univ-orleans.fr/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:abdoulaziz1.ndoye@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/  # TODO: remplace par ton URL Google Scholar exacte
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/  # TODO: remplace par ton identifiant ORCID
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/  # TODO: remplace par ton URL LinkedIn si tu en as une
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Micro-econometrics
+  - Econometrics of Inequality
+  - Quantile and Expectile Regressions
+  - Bayesian Econometrics (MCMC, Bayesian Non-parametrics)
+  - Statistical Machine Learning (Neural Networks, Deep Learning)
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
+  - degree: PhD in Econometrics
+    institution: Aix-Marseille School of Economics (AMSE)
     start: 2009-09-01
-    end: 2013-05-31
+    end: 2013-06-30
+    summary: |
+      Thesis: "Essays on Econometrics of Inequality and Poverty Measurements."
+      Jury: Karim M. Abadir (Imperial College London, referee); Christian P. Robert
+      (Paris Dauphine University, referee); Stephen Bazen (AMSE, president); Habiba
+      Djabbari (University of Laval); Michel Lubrano (AMSE-CNRS, PhD Supervisor).
+    button:
+      text: Download full CV
+      url: /uploads/resume.pdf
+      icon: hero/arrow-down-tray
+  - degree: Msc. in Econometrics
+    institution: Aix-Marseille School of Economics (AMSE)
+    start: 2008-09-01
+    end: 2009-06-30
+  - degree: 'Magistère "Economiste-Statisticien"'
+    institution: Toulouse School of Economics (TSE)
+    start: 2007-09-01
+    end: 2009-06-30
+  - degree: 'Msc. in Economics: Financial Markets and Intermediaries'
+    institution: Toulouse School of Economics (TSE)
+    start: 2007-09-01
+    end: 2008-06-30
+  - degree: B.A. in Econometrics
+    institution: Toulouse 1 University Capitole
+    start: 2003-09-01
+    end: 2006-06-30
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Associate Professor
+    org: University of Orléans
+    start: 2014-09-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Associate Professor (Maître de Conférences) in Economics, member of the
+      Laboratoire d'Économie d'Orléans (LEO). Teaching and research in
+      econometrics, applied statistics, and machine learning.
+  - role: Assistant Lecturer and Research Fellow
+    org: Sciences Po Toulouse
+    start: 2012-09-01
+    end: 2014-09-01
+  - role: Research Fellow in Economic Affairs
+    org: UNECA (United Nations Economic Commission for Africa), Niamey
+    start: 2013-12-01
+    end: 2014-07-01
+  - role: Research Fellow – Teaching Assistant
+    org: Aix-Marseille University
+    start: 2009-09-01
+    end: 2012-09-01
+  - role: Tutorial Assistant
+    org: Sciences Po Toulouse
+    start: 2008-09-01
+    end: 2009-09-01
+  - role: Tutorial Assistant
+    org: Toulouse 1 University Capitole
+    start: 2007-09-01
+    end: 2008-09-01
+  - role: Research Assistant
+    org: Institute of Industrial Economics (IDEI), Toulouse
+    start: 2007-05-01
+    end: 2007-09-01
 
 skills:
   - name: Technical Skills
     items:
-      - label: Python
+      - label: R
         level: 5
-      - label: Machine Learning
+      - label: Bayesian Econometrics (MCMC)
         level: 5
-      - label: Cloud Computing
+      - label: Python / Machine Learning
         level: 4
-  - name: Research & Communication
+      - label: Stata
+        level: 4
+  - name: Research & Teaching
     items:
       - label: Academic Writing
         level: 5
       - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
+        level: 5
+      - label: Course Design & Teaching
+        level: 5
+      - label: PhD/Master Supervision
         level: 4
 
 languages:
-  - name: English
+  - name: French
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
     level: 4
     label: Fluent
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: Cairncross Prize
+    awarder: Scottish Economic Society
+    date: "2012-04-01"
+    summary: Awarded by the Scottish Economic Society.
     icon: hero/trophy
+  - title: Doctoral Dissertation Fellowship
+    awarder: French Ministry of Higher Education and Research
+    date: "2009-01-01"
+    summary: Fellowship covering the 2009-2012 period.
+    icon: hero/academic-cap
+  - title: Research Fellowship
+    awarder: United Nations Economic Commission for Africa
+    date: "2013-01-01"
+    summary: Fellowship covering the 2013-2014 period.
+    icon: hero/globe-alt
+
